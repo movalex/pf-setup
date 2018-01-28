@@ -35,7 +35,7 @@ test the config prior to rebooting:
     
 load the config and enable the pf firewall:
 
-	$ sudo pfctl -f -e /etc/pf.conf
+	$ sudo pfctl -e -f /etc/pf.conf
 
 
 ### auto-start pf firewall on boot up
